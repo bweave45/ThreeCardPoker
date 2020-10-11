@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeCardPoker", "ThreeCardPoker\ThreeCardPoker.csproj", "{5590A013-9EF0-43C2-912E-88C0CA71E661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeCardPoker.Domain", "ThreeCardPoker.Domain\ThreeCardPoker.Domain.csproj", "{4DC1D047-F965-4128-8EF7-CDAD0450A6C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5590A013-9EF0-43C2-912E-88C0CA71E661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5590A013-9EF0-43C2-912E-88C0CA71E661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5590A013-9EF0-43C2-912E-88C0CA71E661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5590A013-9EF0-43C2-912E-88C0CA71E661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC1D047-F965-4128-8EF7-CDAD0450A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC1D047-F965-4128-8EF7-CDAD0450A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC1D047-F965-4128-8EF7-CDAD0450A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC1D047-F965-4128-8EF7-CDAD0450A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB998FF0-CA3C-4D0C-8916-B96802557BD1}
+	EndGlobalSection
+EndGlobal
