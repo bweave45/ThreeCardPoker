@@ -26,8 +26,7 @@ namespace ThreeCardPoker
 
             var winners = ThreeCardPokerScorer.ScoreGame(players);
 
-            winners.ForEach(w => Console.Write("{0} ", w));
+            winners.OrderBy(w => w).ToList().ForEach(w => Console.Write("{0} ", w));
         }
-
     }
 }

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using ThreeCardPoker.Domain.Models;
 using ThreeCardPoker.TieBreakers;
 using ThreeCardPoker.TieBreakers.TiedAlgorithm;
@@ -53,8 +51,7 @@ namespace ThreeCardPoker
                         winners.AddRange(tieBreaker.BreakTie(topScoringPlayer, players));
                         break;
                     case Domain.Enums.HandType.HighCard:
-
-                        tieBreaker.SetTieBreaker(new TwoCardTieAlgorithm());
+                        tieBreaker.SetTieBreaker(new ThreeCardTieAlgorithm());
                         winners.AddRange(tieBreaker.BreakTie(topScoringPlayer, players));
                         break;
                     default:

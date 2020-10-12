@@ -14,7 +14,7 @@ namespace ThreeCardPoker.TieBreakers.TiedAlgorithm
         {
             var winningPlayerIds = new List<long>(); 
 
-            //Tied players ordered descending by card rank, of their, which is not the card rank of the highest card of the highest scoring hand. 
+            //Tied players ordered descending by card rank, of their highest card rank that is not the rank of their highest contributing card. 
             var tiedPlayers = players.Where(p => p.Hand.Score == highScorePlayer.Hand.Score)
                         .OrderByDescending(c => c.Hand.Cards.First(c => c.Rank != highScorePlayer.Hand.HighestContributingCard.Rank).Rank);
 
